@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BA3D9A91566F0B700B43F15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA3D9A81566F0B700B43F15 /* UIKit.framework */; };
+		9BA3D9AB1566F0B700B43F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA3D9AA1566F0B700B43F15 /* Foundation.framework */; };
+		9BA3D9AD1566F0B700B43F15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA3D9AC1566F0B700B43F15 /* CoreGraphics.framework */; };
+		9BA3D9B31566F0B700B43F15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3D9B11566F0B700B43F15 /* InfoPlist.strings */; };
+		9BA3D9B51566F0B700B43F15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3D9B41566F0B700B43F15 /* main.m */; };
+		9BA3D9B91566F0B700B43F15 /* GOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3D9B81566F0B700B43F15 /* GOAppDelegate.m */; };
+		9BA3D9BB1566F0B700B43F15 /* XMLImages.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3D9BA1566F0B700B43F15 /* XMLImages.entitlements */; };
+		9BA3D9BE1566F0B700B43F15 /* GOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3D9BD1566F0B700B43F15 /* GOMasterViewController.m */; };
+		9BA3D9C11566F0B700B43F15 /* GODetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3D9C01566F0B700B43F15 /* GODetailViewController.m */; };
+		9BA3D9C41566F0B700B43F15 /* GOMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3D9C21566F0B700B43F15 /* GOMasterViewController.xib */; };
+		9BA3D9C71566F0B700B43F15 /* GODetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3D9C51566F0B700B43F15 /* GODetailViewController.xib */; };
+		9BA3D9CF1566F2AD00B43F15 /* GOPhotoListParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3D9CE1566F2AD00B43F15 /* GOPhotoListParserDelegate.m */; };
+		9BA3D9D71566F7FD00B43F15 /* GOPhotoDetailsParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3D9D61566F7FD00B43F15 /* GOPhotoDetailsParserDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BA3D9A41566F0B700B43F15 /* XMLImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA3D9A81566F0B700B43F15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BA3D9AA1566F0B700B43F15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BA3D9AC1566F0B700B43F15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BA3D9B01566F0B700B43F15 /* XMLImages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLImages-Info.plist"; sourceTree = "<group>"; };
+		9BA3D9B21566F0B700B43F15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BA3D9B41566F0B700B43F15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BA3D9B61566F0B700B43F15 /* XMLImages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLImages-Prefix.pch"; sourceTree = "<group>"; };
+		9BA3D9B71566F0B700B43F15 /* GOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOAppDelegate.h; sourceTree = "<group>"; };
+		9BA3D9B81566F0B700B43F15 /* GOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOAppDelegate.m; sourceTree = "<group>"; };
+		9BA3D9BA1566F0B700B43F15 /* XMLImages.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = XMLImages.entitlements; sourceTree = "<group>"; };
+		9BA3D9BC1566F0B700B43F15 /* GOMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOMasterViewController.h; sourceTree = "<group>"; };
+		9BA3D9BD1566F0B700B43F15 /* GOMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOMasterViewController.m; sourceTree = "<group>"; };
+		9BA3D9BF1566F0B700B43F15 /* GODetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GODetailViewController.h; sourceTree = "<group>"; };
+		9BA3D9C01566F0B700B43F15 /* GODetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GODetailViewController.m; sourceTree = "<group>"; };
+		9BA3D9C31566F0B700B43F15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GOMasterViewController.xib; sourceTree = "<group>"; };
+		9BA3D9C61566F0B700B43F15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GODetailViewController.xib; sourceTree = "<group>"; };
+		9BA3D9CD1566F2AD00B43F15 /* GOPhotoListParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOPhotoListParserDelegate.h; sourceTree = "<group>"; };
+		9BA3D9CE1566F2AD00B43F15 /* GOPhotoListParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOPhotoListParserDelegate.m; sourceTree = "<group>"; };
+		9BA3D9D51566F7FD00B43F15 /* GOPhotoDetailsParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOPhotoDetailsParserDelegate.h; sourceTree = "<group>"; };
+		9BA3D9D61566F7FD00B43F15 /* GOPhotoDetailsParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOPhotoDetailsParserDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA3D9A11566F0B700B43F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA3D9A91566F0B700B43F15 /* UIKit.framework in Frameworks */,
+				9BA3D9AB1566F0B700B43F15 /* Foundation.framework in Frameworks */,
+				9BA3D9AD1566F0B700B43F15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA3D9991566F0B700B43F15 = {
+			isa = PBXGroup;
+			children = (
+				9BA3D9AE1566F0B700B43F15 /* XMLImages */,
+				9BA3D9A71566F0B700B43F15 /* Frameworks */,
+				9BA3D9A51566F0B700B43F15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA3D9A51566F0B700B43F15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3D9A41566F0B700B43F15 /* XMLImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA3D9A71566F0B700B43F15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3D9A81566F0B700B43F15 /* UIKit.framework */,
+				9BA3D9AA1566F0B700B43F15 /* Foundation.framework */,
+				9BA3D9AC1566F0B700B43F15 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BA3D9AE1566F0B700B43F15 /* XMLImages */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3D9B71566F0B700B43F15 /* GOAppDelegate.h */,
+				9BA3D9B81566F0B700B43F15 /* GOAppDelegate.m */,
+				9BA3D9BC1566F0B700B43F15 /* GOMasterViewController.h */,
+				9BA3D9BD1566F0B700B43F15 /* GOMasterViewController.m */,
+				9BA3D9BF1566F0B700B43F15 /* GODetailViewController.h */,
+				9BA3D9C01566F0B700B43F15 /* GODetailViewController.m */,
+				9BA3D9C21566F0B700B43F15 /* GOMasterViewController.xib */,
+				9BA3D9C51566F0B700B43F15 /* GODetailViewController.xib */,
+				9BA3D9AF1566F0B700B43F15 /* Supporting Files */,
+				9BA3D9CD1566F2AD00B43F15 /* GOPhotoListParserDelegate.h */,
+				9BA3D9CE1566F2AD00B43F15 /* GOPhotoListParserDelegate.m */,
+				9BA3D9D51566F7FD00B43F15 /* GOPhotoDetailsParserDelegate.h */,
+				9BA3D9D61566F7FD00B43F15 /* GOPhotoDetailsParserDelegate.m */,
+			);
+			path = XMLImages;
+			sourceTree = "<group>";
+		};
+		9BA3D9AF1566F0B700B43F15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3D9B01566F0B700B43F15 /* XMLImages-Info.plist */,
+				9BA3D9B11566F0B700B43F15 /* InfoPlist.strings */,
+				9BA3D9B41566F0B700B43F15 /* main.m */,
+				9BA3D9B61566F0B700B43F15 /* XMLImages-Prefix.pch */,
+				9BA3D9BA1566F0B700B43F15 /* XMLImages.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA3D9A31566F0B700B43F15 /* XMLImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA3D9CA1566F0B700B43F15 /* Build configuration list for PBXNativeTarget "XMLImages" */;
+			buildPhases = (
+				9BA3D9A01566F0B700B43F15 /* Sources */,
+				9BA3D9A11566F0B700B43F15 /* Frameworks */,
+				9BA3D9A21566F0B700B43F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLImages;
+			productName = XMLImages;
+			productReference = 9BA3D9A41566F0B700B43F15 /* XMLImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA3D99B1566F0B700B43F15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GO;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Goodwinlabs;
+			};
+			buildConfigurationList = 9BA3D99E1566F0B700B43F15 /* Build configuration list for PBXProject "XMLImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BA3D9991566F0B700B43F15;
+			productRefGroup = 9BA3D9A51566F0B700B43F15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA3D9A31566F0B700B43F15 /* XMLImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA3D9A21566F0B700B43F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA3D9B31566F0B700B43F15 /* InfoPlist.strings in Resources */,
+				9BA3D9BB1566F0B700B43F15 /* XMLImages.entitlements in Resources */,
+				9BA3D9C41566F0B700B43F15 /* GOMasterViewController.xib in Resources */,
+				9BA3D9C71566F0B700B43F15 /* GODetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA3D9A01566F0B700B43F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA3D9B51566F0B700B43F15 /* main.m in Sources */,
+				9BA3D9B91566F0B700B43F15 /* GOAppDelegate.m in Sources */,
+				9BA3D9BE1566F0B700B43F15 /* GOMasterViewController.m in Sources */,
+				9BA3D9C11566F0B700B43F15 /* GODetailViewController.m in Sources */,
+				9BA3D9CF1566F2AD00B43F15 /* GOPhotoListParserDelegate.m in Sources */,
+				9BA3D9D71566F7FD00B43F15 /* GOPhotoDetailsParserDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BA3D9B11566F0B700B43F15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA3D9B21566F0B700B43F15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BA3D9C21566F0B700B43F15 /* GOMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA3D9C31566F0B700B43F15 /* en */,
+			);
+			name = GOMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		9BA3D9C51566F0B700B43F15 /* GODetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA3D9C61566F0B700B43F15 /* en */,
+			);
+			name = GODetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA3D9C81566F0B700B43F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BA3D9C91566F0B700B43F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA3D9CB1566F0B700B43F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XMLImages/XMLImages.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLImages/XMLImages-Prefix.pch";
+				INFOPLIST_FILE = "XMLImages/XMLImages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BA3D9CC1566F0B700B43F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XMLImages/XMLImages.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLImages/XMLImages-Prefix.pch";
+				INFOPLIST_FILE = "XMLImages/XMLImages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA3D99E1566F0B700B43F15 /* Build configuration list for PBXProject "XMLImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA3D9C81566F0B700B43F15 /* Debug */,
+				9BA3D9C91566F0B700B43F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA3D9CA1566F0B700B43F15 /* Build configuration list for PBXNativeTarget "XMLImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA3D9CB1566F0B700B43F15 /* Debug */,
+				9BA3D9CC1566F0B700B43F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA3D99B1566F0B700B43F15 /* Project object */;
+}
